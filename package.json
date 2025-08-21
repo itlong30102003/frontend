@@ -17,10 +17,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "build": "nest build",
+  "start": "node dist/main.js",     
+  "start:dev": "nest start --watch",
+  "start:debug": "nest start --debug --watch"
   },
   "eslintConfig": {
     "extends": [
