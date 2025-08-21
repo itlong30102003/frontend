@@ -1,5 +1,4 @@
-const API_BASE = 'http://localhost:3001/api';
-
+const API_BASE = 'https://english-platform-7ljv.onrender.com/api'; 
 export const teacherService = {
   getAll: () => fetch(`${API_BASE}/teachers`).then(res => res.json()),
   getTopRated: () => fetch(`${API_BASE}/teachers/top-rated`).then(res => res.json()),
